@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Foody Frenzy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+     
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+              <button class="btn btn-danger ml-2" type="button">Login</button>
+        </div>
+      </nav>
+ <main>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="1000">
+    <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-center align-items-center" style="top: 0; left: 0; z-index: 10; pointer-events: none;">
+      <h1 class="text-white mb-4" style="pointer-events: auto; font-family: cursive; font-size: 80px; letter-spacing: 3px; font-style: italic; font-weight: bold;">Foody Frenzy</h1>
+      <p class="text-white mb-4 text-center" style="pointer-events: auto; font-size: 30px; font-family: 'Courier New', Courier, monospace; font-weight: bold;">Get the best foods and drinks in <mark style="background-color: rgb(224, 92, 92);">INDIA.</mark></p>
+      <form class="form-inline" style="pointer-events: auto;">
+        <input type="text" class="form-control mr-sm-2" placeholder="Search for Dishes, Cuisines, Restoras.." aria-label="Search" style="width: 500px; height: 37px;">
+        <button class="btn btn-danger" type="submit">Search Here</button>
+      </form>
+    </div>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="First slide" style="height: 600px; filter: brightness(50%);">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Second slide"style="height: 600px;filter: brightness(50%);">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Third slide"style="height: 600px;filter: brightness(50%);">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://w0.peakpx.com/wallpaper/101/95/HD-wallpaper-burgers-fast-food-delicious-food-sandwiches-harmful-food.jpg" alt="Forth slide"style="height: 600px;filter: brightness(50%);">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <section class="container">
+    <h2 class="text-center my-5" style="font-family: cursive; font-size: 40px; letter-spacing: 3px; font-style: italic; font-weight: bold;">Explore curated lists of top restaurants, cafes, pubs and foods in India. </h2>
+
+
+    <div class="row">
+      <div class="col-md-3">
+          <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+              <img src="https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg" class="card-img" style="filter: brightness(50%); height: 170px;">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <h5 class="card-title">Burgurs</h5>
+              </div>
+          </a>
+      </div>
+      <div class="col-md-3">
+        <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+            <img src="https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img" style="filter: brightness(50%); height: 170px;">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h5 class="card-title">Pizza</h5>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-3">
+      <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+          <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img" style="filter: brightness(50%); height: 170px;">
+          <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <h5 class="card-title">Chowmin</h5>
+          </div>
+      </a>
+  </div>
+  <div class="col-md-3">
+    <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+        <img src="https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%); height: 170px;">
+        <div class="card-img-overlay d-flex flex-column justify-content-end">
+            <h5 class="card-title">North Indian</h5>
+        </div>
+    </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src=" https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600 " class="card-img" style="filter: brightness(50%); height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Sushi</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="  https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%); height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Chicken</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%); height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Fish</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%); height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Salad</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%); height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Egg</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/2641886/pexels-photo-2641886.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Kebabs</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Paneer</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=400" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Desserts</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Fruits</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/239581/pexels-photo-239581.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Cookies</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/139259/pexels-photo-139259.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Pinapples</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">French Fries</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Fish</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/955137/pexels-photo-955137.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Momo</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">Cakes</h5>
+      </div>
+  </a>
+</div>
+<div class="col-md-3">
+  <a href="#" class="card text-white text-center" style="border-color: rgba(0, 0, 0, 0.484); box-shadow: 5px 5px 40px 15px #d85b5b; margin-bottom: 20px;">
+      <img src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" style="filter: brightness(50%);height: 170px;">
+      <div class="card-img-overlay d-flex flex-column justify-content-end">
+          <h5 class="card-title">French Dish</h5>
+      </div>
+  </a>
+</div>
+</div>
+</section>
+</fieldset>
+</article>
+<article>
+  <fieldset class="card m-3 p-3">
+    <legend><h4>CONTACT US:</h4></legend>
+   <section>
+    <div class="row">
+      <div class="col">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1842.0534671227551!2d88.35852993993097!3d22.575103523841744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277ad9aa6c5bd%3A0x34b306cef2f8e5f5!2sCalcutta%20School%20Of%20Tropical%20Medicine%20(STM)!5e0!3m2!1sen!2sin!4v1733418959811!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+   
+      </div>
+      <div class="col border-left">
+          <form method="POST" action="./hello.html">
+              <div class="form-group">Full Name: <input type="text" id="n1" name="n1" required class="form-control"></div>
+              <div class="form-group">Phone Number: <input type="number" name="n2" id="n2" required class="form-control"></div>
+              <div class="form-group">Email Id: <input type="text" id="n3" name="n3" required class="form-control"></div>
+              <div class="form-group">Leave Us a Message: <textarea name="n4" id="n4" rows="6" required cols="30" class="form-control"></textarea></div>
+              <div class="form-group"><button class="btn btn-danger" style="color: aliceblue;">Submit</button></div>
+            </form>
+      </div>
+       
+    </div>
+       
+</section>
+</fieldset>
+</article>
+<footer class="bg-dark text-center text-lg-start text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row mt-4">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">See other options</h5>
+
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>Bestsellers</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>All foods</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-user-edit fa-fw fa-sm me-2"></i>Our Investors</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Execution of the contract</h5>
+
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Supply</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-backspace fa-fw fa-sm me-2"></i>Returns</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Regulations</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Privacy policy</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Publishing Company</h5>
+
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">The Foodstore</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Kolkata</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">India</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-briefcase fa-fw fa-sm me-2"></i>Send us a tip</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Write to us</h5>
+
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Help in purchasing</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Check the order status</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Join the newsletter</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2024 ANKUR CHOUDHURYyyyyy:
+    <a class="text-white" target="_blank" href="https://www.swiggy.com">Foody Frenzy</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+</main>
+</body>
+</html>
+
